@@ -9,5 +9,5 @@ Neste módulo é abordado o assunto de programação procedural.
 4. [Laços de repetição](./lacos/README.md)
 5. [Funções](./funcoes/README.md)
 6. [Funções recursivas](./recursao/README.md)
-7. [Vetores, matrizes e hashmaps](./conteiners/README.md)
+7. [Vetores, matrizes e hashmaps](./colecoes/README.md)
 8. [Tratamento de exceções](./excecoes/README.md)

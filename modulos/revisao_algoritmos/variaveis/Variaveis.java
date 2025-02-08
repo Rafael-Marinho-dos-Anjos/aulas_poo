@@ -31,6 +31,5 @@ public class Variaveis {
         // Para atribuir de um tipo menor para um maior não o cast não modifica o valor
         decimal = (double) inteiro;
         System.out.println("Double convertido: " + decimal);
-
     }
 }
