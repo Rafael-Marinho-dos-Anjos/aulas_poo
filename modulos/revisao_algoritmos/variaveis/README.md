@@ -33,3 +33,13 @@ Os tipos de dados podem ser divididos em duas categorias: os tipos primitivos e 
 | *Classes*        | Representam objetos definidos pelo usuário.    | ```String s = "Olá";```                |
 | *Interfaces*     | Definem contratos que classes podem implementar| ```List<String> lista = new ArrayList<>();``` |
 | *Arrays*         | Coleções de elementos do mesmo tipo.           | ```int[] numeros = {1, 2, 3};```       |
+
+### 3. Cast de dados ([exemplo](./Variaveis.java)):
+
+Quando é necessário obter uma representação de uma variável em um tipo diferente do seu é necessário realizar uma conversão do valor, essa conversão é chamada de cast.
+
+Sempre que um valor não for possível de ser representado no novo tipo, o cast vai arredondar para o valor representável imediatamente menor, por exemplo:
+
+- ```(int) 3.9``` &rarr; ```3```
+- ```(int) 2.3f``` &rarr; ```2```
+- ```(float) 3.1415926535``` &rarr; ```3.1415927```
