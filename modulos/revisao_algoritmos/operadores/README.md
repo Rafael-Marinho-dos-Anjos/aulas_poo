@@ -36,3 +36,7 @@ Combinam expressões ou valores booleanos e retornam um booleano.
 | ```&&``` | E lógico (and) | ```true && false``` &rarr; false |
 | ```\|\|``` | OU lógico (or) | ```true \|\| false``` &rarr; true |
 | ```!``` | NÃO lógico (not) | ```!true``` &rarr; false |
+
+<br>
+
+- [Exercícios](./exercicios.md)
