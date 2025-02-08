@@ -55,3 +55,7 @@ A estrutura ```switch``` avalia a igualdade de uma expressão com uma série de 
 </code>
 
 Note que após cada bloco de código (exceto o último) há uma quebra de execução (```break;```), caso não seja feita essa quebra todos os blocos de código seguintes serão executados.
+
+<br>
+
+- [Exercícios](./exercicios.md)
