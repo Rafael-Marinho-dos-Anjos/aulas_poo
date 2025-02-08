@@ -17,8 +17,7 @@ Já o ```else if``` tem o seu funcionamento condicionado pelo ```if``` (ou ```el
 
 #### Sintaxe:
 
-<code>
-if ( condição 1 ) { código 1 }<br>
+<code>if ( condição 1 ) { código 1 }<br>
 else if ( condição 2 ) { código 2 }<br>
 ...<br>
 else if ( condição n ) { código n }
@@ -30,8 +29,7 @@ Assim como o ```else if```, a execução da estrutura ```else``` é condicionada
 
 #### Sintaxe:
 
-<code>
-if ( condição 1 ) { código 1 }<br>
+<code>if ( condição 1 ) { código 1 }<br>
 else if ( condição 2 ) { código 2 }<br>
 ...<br>
 else if ( condição n-1 ) { código n-1 }<br>
@@ -44,8 +42,7 @@ A estrutura ```switch``` avalia a igualdade de uma expressão com uma série de 
 
 #### Sintaxe:
 
-<code>
-switch( expressão ) {<br>
+<code>switch( expressão ) {<br>
 &nbsp;case valor_1:<br>
 &nbsp;&nbsp;{ código 1 }<br>
 &nbsp;&nbsp;break;<br>
