@@ -5,7 +5,7 @@
 
 São recursos utilizados para armazenar valores, podem ter os seus valores internos modificados a vontade quando necessário e permitem ser utilizados em operações que irão dar suporte à toda lógica do algoritmo.
 
-As variáveis devem ser declaradas antes de serem utilizadas, ou seja, deve ser informado o tipo de informação que deverá ser armazenado e como que será referenciada no código. No processo de declaração é rezervado o espaço de memória necessário para armazenar o valor a depender do tipo e o seu endereço é atribuído à variável.
+As variáveis devem ser declaradas antes de serem utilizadas, ou seja, deve ser informado o tipo de dado que deverá ser armazenado e como que será referenciada no código. No processo de declaração é rezervado o espaço de memória necessário para armazenar o valor a depender do tipo e o seu endereço é atribuído à variável.
 
 O processo de atribuição do primeiro valor à variável é chamado de inicialização e pode ser feito simultâneamente à declaração.
 
