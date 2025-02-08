@@ -1,4 +1,5 @@
 # Revisão sobre algoritmos
+[<-- Voltar](../../README.md)
 
 ## 1. Variáveis e tipos de dados
 ### 1.1. Variáveis ([exemplo](./variaveis/Variaveis.java)):
