@@ -2,7 +2,7 @@ package modulos.revisao_algoritmos.variaveis;
 
 
 public class Variaveis {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // Declaração de uma variável
         int inteiro;
         // Inicialização de uma variável (atribuindo um primeiro valor)
