@@ -5,7 +5,7 @@ Estruturas condicionais permitem controlar o fluxo do programa, selecionando qua
 
 ### 1. IF ([exemplo](./If.java)):
 
-A estrutura condicional ```if``` controla a decisão sobre a execução de um bloco de código de acordo com uma operação lógica. Caso a operação retorne ```true```, o bloco é executado, caso retorne ```false``` não ocorre a execução do bloco.
+A estrutura condicional ```if``` controla a decisão sobre a execução ou não de um bloco de código de acordo com uma operação lógica. Caso a operação retorne ```true```, o bloco é executado, caso retorne ```false``` não ocorre a execução do bloco.
 
 #### Sintaxe:
 
@@ -13,7 +13,7 @@ A estrutura condicional ```if``` controla a decisão sobre a execução de um bl
 
 ### 2. ELSE IF ([exemplo](./If.java)):
 
-Já o ```else if``` tem o seu funcionamento condicionado pelo ```if``` (ou ```else if```) imediatamente anterior. Caso a estrutura condicional que o precede tenha o valor de sua condição interna igual a ```false``` (e não tenha sido pulada), o seu comportamente será similar ao de um ```if``` comum, caso contrário, o bloco será pulado.
+Já o ```else if``` tem o seu funcionamento condicionado pelo ```if``` (ou ```else if```) imediatamente anterior. Caso a estrutura condicional que o precede tenha o valor de sua condição interna igual a ```false``` (e não tenha sido pulada, caso seja um outro ```else if```), o seu comportamente será similar ao de um ```if``` comum, caso contrário, o bloco será pulado.
 
 #### Sintaxe:
 
