@@ -37,6 +37,31 @@ Combinam expressões ou valores booleanos e retornam um booleano.
 | ```\|\|``` | OU lógico (or) | ```true \|\| false``` &rarr; true |
 | ```!``` | NÃO lógico (not) | ```!true``` &rarr; false |
 
+- #### Tabela verdade AND
+
+| A | B | Saída |
+|---|---|-------|
+| ```true``` | ```true``` | ```true``` |
+| ```true``` | ```false``` | ```false``` |
+| ```false``` | ```true``` | ```false``` |
+| ```false``` | ```false``` | ```false``` |
+
+- #### Tabela verdade OR
+
+| A | B | Saída |
+|---|---|-------|
+| ```true``` | ```true``` | ```true``` |
+| ```true``` | ```false``` | ```true``` |
+| ```false``` | ```true``` | ```true``` |
+| ```false``` | ```false``` | ```false``` |
+
+- #### Tabela verdade NOT
+
+| A | Saída |
+|---|-------|
+|```true``` | ```false``` |
+|```false``` | ```true``` |
+
 <br>
 
 - [Exercícios](./exercicios.md)
