@@ -13,13 +13,13 @@ Existem diferentes tipos de estruturas de repetição, aseguir veremos cada uma 
 
 ```for (inicialização; condição; incremento) { código }```
 
-- Inicialização: 
+- **Inicialização**: 
 Passo onde se inicializa a variável de controle do loop. Geralmente é uma variável inteira que atua como contador.
 
-- Condição:
+- **Condição**:
 É uma expressão lógica que é verificada antes de cada iteração (nome dado a cada uma das execuções do laço), caso seu retorno seja ```true```, o bloco de código é executado, caso seja ```false``` o laço é interrompido.
 
-- Incremento:
+- **Incremento**:
 É onde ocorre a atualização do valor da variável de controle, a manipulação do valor da variável de controle pode ser feita dentro do bloco de código, mas essa não é uma prática comum.
 
 ### 2. While ([Exemplo](./While.java)):

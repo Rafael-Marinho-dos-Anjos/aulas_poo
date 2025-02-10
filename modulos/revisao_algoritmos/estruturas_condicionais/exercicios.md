@@ -1,7 +1,7 @@
 # Exercícios - Estruturas Condicionais
 [<-- Voltar](./README.md)
 
-### 1.  IMC
+### 1. IMC
 
 Escreva um programa que, armazene os valores de altura e massa em duas variáveis do tipo double ```alt``` e ```mas``` respectivamente, calcule e armazene o valor do IMC na variável ```imc``` (também do tipo double) utilizando a equação:
 
