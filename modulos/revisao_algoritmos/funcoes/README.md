@@ -3,7 +3,7 @@
 
 ### 1. O que são funções ([Exemplo](./Funcoes.java)):
 
-Funções são chamadas para a execução de um bloco de código que realiza uma tarefa específica. Elas promovem uma melhor organização do código e evitam repetição desnecessária de diferentes linhas do código que executam a mesma tarefa, além de facilitar a manutenção futura do código escrito.
+Funções são chamadas para a execução de um bloco de código que realiza uma tarefa específica. Elas promovem uma melhor organização do programa e evitam repetição desnecessária de diferentes linhas que executam a mesma tarefa, além de facilitar a manutenção futura do código escrito.
 
 #### Sintaxe:
 <code>
