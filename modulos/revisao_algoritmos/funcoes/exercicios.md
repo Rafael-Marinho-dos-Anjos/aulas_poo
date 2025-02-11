@@ -7,7 +7,7 @@ O fatorial de um número é dado pela multiplicação dele mesmo e todos os núm
 
 A expressão matemática da função fatorial é mostrada a seguir:
 
-$$n!=\left\{ \begin{array}{lc}
+$$n!=\left\lbrace \begin{array}{lc}
     0 \text{ se } n<0, \\
     1 \text{ se } n=0, \\
     \prod_{i=1}^{n} \text{ se } n>0

@@ -7,7 +7,7 @@ A sequência de Fibonacci consiste em uma sequência numérica onde cada um dos 
 
 A seguir é mostrada a expressão matemática da sequência de Fibonacci.
 
-$$Fib(n)=\left\{ \begin{array}{lc}
+$$Fib(n)=\left\lbrace \begin{array}{lc}
     0 \text{ se } n=0, \\
     1 \text{ se } n=1, \\
     Fib(n-1) + Fib(n-2) \text{ se } n>1
