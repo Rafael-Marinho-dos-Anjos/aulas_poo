@@ -14,7 +14,7 @@ $$n!=\left\lbrace \begin{array}{lc}
     \end{array}\right.
 $$
 
-Escreva um programa que receba três números inteiros como entrada e, para cada uma das entradas, printe o seu fatorial no console. Faça o código com o mínimo de linhas possível.
+Escreva um programa que receba três números inteiros como entrada e, para cada uma das entradas, printe o seu fatorial no console. Escreva o código utilizando laço de repetição e função.
 
 ### 2. Somatório
 
