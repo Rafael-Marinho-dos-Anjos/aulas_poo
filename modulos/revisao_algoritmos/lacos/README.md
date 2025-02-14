@@ -11,7 +11,9 @@ Existem diferentes tipos de estruturas de repetição, aseguir veremos cada uma 
 
 #### Sintaxe:
 
-```for (inicialização; condição; incremento) { código }```
+```bash
+for (inicialização; condição; incremento) { código }
+```
 
 - **Inicialização**: 
 Passo onde se inicializa a variável de controle do loop. Geralmente é uma variável inteira que atua como contador.
@@ -32,7 +34,9 @@ Para se certificar de que não ocorrerá um loop infinito, deve ser utilizada um
 
 #### Sintaxe:
 
-```while (condição) { código }```
+```bash
+while (condição) { código }
+```
 
 ### 3. Do-while ([Exemplo](./DoWhile.java)):
 
@@ -40,14 +44,18 @@ Para se certificar de que não ocorrerá um loop infinito, deve ser utilizada um
 
 #### Sintaxe:
 
-```do { código } while (condição);```
+```bash
+do { código } while (condição);
+```
 
 ### 4. ForEach ([Exemplo](./ForEach.java)):
 
 Essa estrutura de repetição executa a sua iteração sobre os elementos de um ```array``` ([Aula sobre coleções de dados](../colecoes/README.md)). No ```foreach``` não há uma condição de parada, o bloco de código é executado uma vez para cada valor existente no array.
 
 #### Sintaxe:
-```for (tipo variável : array) { código }```
+```bash
+for (tipo variável : array) { código }
+```
 
 <br>
 

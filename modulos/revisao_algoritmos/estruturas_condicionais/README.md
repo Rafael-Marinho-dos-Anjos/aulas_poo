@@ -17,11 +17,12 @@ Já o ```else if``` tem o seu funcionamento condicionado pelo ```if``` (ou ```el
 
 #### Sintaxe:
 
-<code>if ( condição 1 ) { código 1 }<br>
-else if ( condição 2 ) { código 2 }<br>
-...<br>
+```bash
+if ( condição 1 ) { código 1 }
+else if ( condição 2 ) { código 2 }
+...
 else if ( condição n ) { código n }
-</code>
+```
 
 ### 3. ELSE ([exemplo](./If.java)):
 
@@ -29,12 +30,13 @@ Assim como o ```else if```, a execução da estrutura ```else``` é condicionada
 
 #### Sintaxe:
 
-<code>if ( condição 1 ) { código 1 }<br>
-else if ( condição 2 ) { código 2 }<br>
-...<br>
-else if ( condição n-1 ) { código n-1 }<br>
+```bash
+if ( condição 1 ) { código 1 }
+else if ( condição 2 ) { código 2 }
+...
+else if ( condição n-1 ) { código n-1 }
 else { código n }
-</code>
+```
 
 ### 4. SWITCH CASE ([exemplo](./Switch.java)):
 
@@ -42,17 +44,18 @@ A estrutura ```switch``` avalia a igualdade de uma expressão com uma série de 
 
 #### Sintaxe:
 
-<code>switch( expressão ) {<br>
-&nbsp;case valor_1:<br>
-&nbsp;&nbsp;{ código 1 }<br>
-&nbsp;&nbsp;break;<br>
-&nbsp;case valor_2:<br>
-&nbsp;&nbsp;{ código 2 }<br>
-&nbsp;&nbsp;break;<br>
-&nbsp;default:<br>
-&nbsp;&nbsp;{ código executado caso nenhuma igualdade seja satisfeita }<br>
+```bash
+switch( expressão ) {
+    case valor_1:
+        { código 1 }
+        break;
+    case valor_2:
+        { código 2 }
+        break;
+    default:
+        { código executado caso nenhuma igualdade seja satisfeita }
 }
-</code>
+```
 
 Note que após cada bloco de código (exceto o último) há uma quebra de execução (```break;```), caso não seja feita essa quebra todos os blocos de código seguintes serão executados.
 
