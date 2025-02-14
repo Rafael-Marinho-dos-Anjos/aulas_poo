@@ -52,7 +52,7 @@ int tamanhoDaPrimeiraDimensaoDaMatriz = matriz.lenght;
 int tamanhoDaSegundaDimensaoDaMatriz = matriz[0].lenght;
 ```
 
-### 2. Coleções:
+### 2. Coleções ([Exemplo](./Colecoes.java)):
 
 Em Java, uma coleção é uma estrutura de dados que permite armazenar e manipular grupos de variáveis ou objetos em sequência.
 
