@@ -110,7 +110,34 @@ public class ExemploHashMap {
 }
 ```
 
-O acesso aos elementos de coleções é feito através de métodos:
+O método ```add``` do ```ArrayList``` e do ```LinkedList``` também pode ser utilizado para adicionar elementos em uma posição específica da lista. Caso se queira inserir no início, também pode se usar o método ```addFirst```, caso queira inserir no final, pode ser usado ```addLast```:
+
+```bash
+// Adicionando elementos na n-ézima posição da lista
+lista.add(n, elemento);
+listaEncadeada.add(n, elemento);
+
+// Adicionando elementos no início da lista
+lista.addFirst(elemento);
+listaEncadeada.addFirst(elemento);
+
+// Adicionando elementos no fim da lista
+lista.addLast(elemento);
+listaEncadeada.addLast(elemento);
+```
+
+Para remover um elemento de uma coleção, basta utilizar o método ```remove``` seguido do index ou chave:
+
+```bash
+// Removendo elemento localizado na n-ézima posição
+lista.remove(n);
+listaEncadeada.remove(n);
+
+// Removendo elemento de um HashMap
+mapa.remove(chave);
+```
+
+O acesso aos elementos de coleções é feito através de métodos ```get``` e ```set``` (```put``` no caso de ```HashMap```):
 
 ```bash
 // Acessando os valores das coleções
@@ -139,6 +166,8 @@ As chaves contidas no ```HashMap``` podem ser obitidas através do método ```ke
 ```bash
 Set<tipo_da_chave> chaves = mapa.keySet();
 ```
+
+
 
 <br>
 
