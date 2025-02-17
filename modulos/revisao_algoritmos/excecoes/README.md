@@ -9,7 +9,7 @@ Esse objeto (chamado de exceção ou erro) pode ser capturado durante a execuç�
 
 ### 2. Tratando excessões ([Exemplo](./Exececoes.java)):
 
-Para que seja possível capturar uma exceção durante a execução do programa, a proção de código que pode lançar o erro deve estar contido dentro de um bloco ```try```, seguido de um bloco de código alternativo ```catch```. Após o bloco ```catch``` pode ser adicionado um terceiro bloco ```finally``` que irá ser executado independente de haver exceção ou não.
+Para que seja possível capturar uma exceção durante a execução do programa, a porção de código que pode lançar o erro deve estar contida dentro de um bloco ```try```, seguido de um bloco de código alternativo ```catch```. Após o bloco ```catch``` pode ser adicionado um terceiro bloco ```finally``` que irá ser executado independente de haver exceção ou não.
 
 Podem ser adicionados múltiplos blocos ```catch```, cada um para um tipo específico de exceção.
 
