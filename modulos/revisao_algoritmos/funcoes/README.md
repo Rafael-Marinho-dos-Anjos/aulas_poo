@@ -40,7 +40,7 @@ Runnable nome_da_expressao = () -> { código };
 nome_da_expressao.run();
 ```
 
--  ```Consumer```: é uma interface que implementa a assinatura de um método que não recebe nenhuma entrada e retorna um valor com tipo definido;
+-  ```Consumer```: é uma interface que implementa a assinatura de um método que recebe uma entrada com tipo definido e não retorna nenhum valor;
 
 **Sintaxe**:
 
@@ -49,7 +49,7 @@ Consumer<tipo_de_entrada> nome_da_expressao = ( parametro_de_entrada ) -> { cód
 nome_da_expressao.accept();
 ```
 
--  ```Supplier```: é uma interface que implementa a assinatura de um método que recebe uma entrada com tipo definido e não retorna nenhum valor.
+-  ```Supplier```: é uma interface que implementa a assinatura de um método que não recebe nenhuma entrada e retorna um valor com tipo definido.
 
 **Sintaxe**:
 
