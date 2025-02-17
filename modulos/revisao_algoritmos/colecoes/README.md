@@ -158,7 +158,7 @@ O tamanho das coleções é obtido através do método ```size```:
 ```bash
 int tamanhoDoArrayList = lista.size();
 int tamanhoDoLinkedList = listaEncadeada.size();
-int tamanhoDoHashMap = mapa.size();
+int tamanhoDoHashMap = mapa.size(); // Quantidade de conjuntos chave-valor
 ```
 
 As chaves contidas no ```HashMap``` podem ser obitidas através do método ```keySet```:
