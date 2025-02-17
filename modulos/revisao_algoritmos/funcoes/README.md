@@ -31,7 +31,7 @@ São tipos especiais de funções que implementam funções com assinaturas já 
 
 Nativamente, o java oferece 3 interfaces padrão próprias para expressões lambda: ```Runnable```, ```Consumer``` e ```Supplier```.
 
-- ```Runnable```: é uma interface que implementa a assinatura de um método que não recebe nenhuma entrada e nem retorna nenhum valor;
+- ```Runnable```: é uma interface que implementa a assinatura de um método que não recebe nenhuma entrada e nem retorna nenhum valor (expressões do tipo ```Runnable``` são amplamente utilizadas ao trabalhar com múltiplas threads);
 
 **Sintaxe**:
 
@@ -62,7 +62,7 @@ Supplier<tipo_de_saida> nome_da_expressao = () -> {
 nome_da_expressao.get();
 ```
 
-### Extra 2. Expressões Lambda com assinatura customizada ([Exemplo](./LambdaCustomizado.java)):
+- ### Extra 2. Expressões Lambda com assinatura customizada ([Exemplo](./LambdaCustomizado.java)):
 
 Também é possível definir quais são os tipos de entrada e saída de uma expressão lambda, para isso, basta criar uma interface que defina a assinatura desejada para a expressão.
 
