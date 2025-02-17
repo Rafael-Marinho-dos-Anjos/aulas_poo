@@ -1,9 +1,9 @@
 package modulos.revisao_algoritmos.excecoes;
 
 public class Exececoes {
-    static int recursaoInfinita(){
-        return recursaoInfinita();
-    }
+    // Método que implementa uma recursão sem fim
+    static int recursaoInfinita(){ return recursaoInfinita(); }
+
     public static void main(String[] args) {
         int [] arr = {1, 2, 3};
 
@@ -11,7 +11,7 @@ public class Exececoes {
         try {
             int quintoElemento = arr[4];
 
-            System.out.println("Quinto elemento do array acessado com sucesso");
+            System.out.println("Quinto elemento do array acessado com sucesso: " + quintoElemento);
         }
         // O bloco catch é executado caso ocorra algum erro durante a execução
         // do bloco de código try
