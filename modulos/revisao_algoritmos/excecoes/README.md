@@ -41,7 +41,7 @@ Esse recurso é muito útil para interromper prematuramente rotinas que não cum
 
 ### 4. Utilizando Exceções lançadas manualmente para diminuir a complexidade do código ([Exemplo](./UtilizandoExcecoes.java)):
 
-Como foi visto anteriormente, exceções podem ser lançadas de forma manual para interromper rotinas. Isso permite que as mesmas sejam capturadas em camadas externas do código utilizando o próprio objeto de excessão para retornar informações, dessa forma evitamos ter que escrever estruturas condicionais (```if``` e ```else```) mais complexas para verificar todas as condições possíveis que fariam uma execução segura do método até o fim e simplificamos pulando tudo isso e retornando a exceção para a camada mais externa do programa.
+Como foi visto anteriormente, exceções podem ser lançadas de forma manual para interromper rotinas. Isso permite que as mesmas sejam capturadas em camadas externas do código utilizando o próprio objeto de excessão para retornar informações, dessa forma evitamos ter que escrever estruturas condicionais (```if``` e ```else```) mais complexas para verificar todas as condições possíveis, que fariam uma execução segura do método até o fim, e simplificamos pulando tudo isso para retornar a exceção diretamente para a camada mais externa do programa onde se encontra o ```try```.
 
 <br>
 
