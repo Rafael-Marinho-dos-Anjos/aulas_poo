@@ -1,4 +1,4 @@
-# Exercícios - Operadores
+# Exercícios - Funções recursivas
 [<-- Voltar](./README.md)
 
 ### 1. Sequência de Fibonacci
