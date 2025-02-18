@@ -9,7 +9,7 @@ Classe é um modelo que define as propriedades (atributos) e comportamentos (mé
 
 - **Sintaxe**:
 
-A definição de uma classe é feita seguindo o padrão abaixo:
+A definição de uma classe é feita com a palavra-chave ```class``` seguindo o padrão abaixo:
 
 ```bash
 modificador_de_acesso class nome_da_classe {
@@ -23,7 +23,7 @@ modificador_de_acesso class nome_da_classe {
 
 - **Sintaxe**:
 
-A criação de um objeto de uma classe específica é chamada de instanciação e é feita da seguinte maneira:
+A criação de um objeto de uma classe específica é chamada de instanciação e é feita utilizando a palavra-chave ```new``` da seguinte maneira:
 
 ```bash
 nome_da_classe nome_do_objeto = new nome_da_classe( parâmetros );
