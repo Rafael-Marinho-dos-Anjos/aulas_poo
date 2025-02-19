@@ -3,7 +3,7 @@
 
 ### 1. Carro
 
-A sua equipe está elaborando um simulador de corrida e você ficou responsável por implementar a classe de carros. Nas tabelas a seguir são exibidas todas os atributos e métodos que um carro deve conter no simulador:
+A sua equipe está elaborando um simulador de corrida e você ficou responsável por implementar a classe de carros. Nas tabelas a seguir são exibidos todos os atributos e métodos que um carro deve conter no simulador:
 
 - **Atributos**:
 
