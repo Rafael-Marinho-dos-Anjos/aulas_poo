@@ -92,3 +92,7 @@ public class MinhaClasse {
     }
 }
 ```
+
+<br>
+
+- [Exercícios](./exercicios.md)
