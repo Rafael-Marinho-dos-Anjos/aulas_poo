@@ -34,6 +34,6 @@ $$Fren_{coef} = 0.002 \cdot massa$$
 
 Cada atributo deve ser privado e os métodos devem ser públicos, os métodos getters também devem ser implementados, mas os setters não.
 
-Lembre-se de respeitar os limites dos valores de cada atributo quando implementar cada método.
+Lembre-se de respeitar os limites dos valores de cada atributo quando implementar cada método, uma boa maneira de fazer isso seria através de uma função que faça o papel de limitar o valor que seria invocada no final de cada método que realize a alteração de algum atributo limitado.
 
-Não se preocupe em implementar o método construtor agora, faremos isso no exercício do conteúdo a seguir.
+Não se preocupe em implementar o método construtor agora, faremos isso no [exercício sobre métodos construtores](../construtores/exercicios.md).
