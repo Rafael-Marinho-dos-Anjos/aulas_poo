@@ -11,7 +11,7 @@ Classe é um modelo que define as propriedades (atributos) e comportamentos (mé
 
 A definição de uma classe é feita com a palavra-chave ```class``` seguindo o padrão abaixo:
 
-```bash
+```java
 modificador_de_acesso class nome_da_classe {
     atributos_e_métodos
 }
@@ -25,7 +25,7 @@ modificador_de_acesso class nome_da_classe {
 
 A criação de um objeto de uma classe específica é chamada de instanciação e é feita utilizando a palavra-chave ```new``` da seguinte maneira:
 
-```bash
+```java
 nome_da_classe nome_do_objeto = new nome_da_classe( parâmetros );
 ```
 

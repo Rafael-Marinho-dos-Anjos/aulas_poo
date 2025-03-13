@@ -19,7 +19,7 @@ Podem ser adicionados múltiplos blocos ```catch```, cada um para um tipo espec�
 
 **Sintaxe**:
 
-```bash
+```java
 try { código_que_pode_lançar_exceção }
 catch ( tipo_de_exceção nome_do_objeto_de_exceção ) { código_alternativo }
 finally { código_que_sempre_será_executado } // dispensável
@@ -31,7 +31,7 @@ Exceções também podem ser lançadas manualmente, para isso, é utilizada a pa
 
 **Sintaxe**:
 
-```bash
+```java
 throw new tipo_de_exceção( mensagem_de_erro );
 ```
 

@@ -7,7 +7,7 @@ São características ecomportamentos pertencentes à classe que independem dos 
 
 - **Sintaxe**:
 
-```bash
+```java
 public class MinhaClasse {
     static int AtributoEstaticoInteiro;
     static String AtributoEstaticoTextual;
@@ -24,7 +24,7 @@ A chamada a métodos estáticos deve ser feita diretamente através da própria 
 
 - **Exemplo**:
 
-```bash
+```java
 MinhaClasse.metodoEstatico();
 ```
 
@@ -32,8 +32,8 @@ Os atributos estáticos podem ser utilizados livremente nos métodos da classe (
 
 - **Exemplo**:
 
-```bash
-# Exemplo de classe que conta quantos objetos foram criados
+```java
+// Exemplo de classe que conta quantos objetos foram criados
 
 public class MinhaClasse {
     static int contador = 0;

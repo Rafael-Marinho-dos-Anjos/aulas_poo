@@ -9,7 +9,7 @@ Cada objeto instanciado vai possuir o seu próprio conjunto de atributos indepen
 
 - **Sintaxe**:
 
-```bash
+```java
 modificador_de_acesso class nome_da_classe {
     // Atributo
     modificador_de_acesso tipo_da_variável nome_da_variável;
@@ -24,7 +24,7 @@ Os métodos implementam os comportamentos que as instâncias devem apresentar, o
 
 - **Sintaxe**:
 
-```bash
+```java
 modificador_de_acesso class nome_da_classe {
     // Método
     modificador_de_acesso tipo_de_retorno nome_do_método ( parâmetros ) {
@@ -36,7 +36,7 @@ modificador_de_acesso class nome_da_classe {
 
 A forma de acesso aos atributos das instâncias dentro de um método é feito através da palavra-chave ```this``` seguido de ponto e o nome do atributo, feito isso, a interação acontece como uma variável comum:
 
-```bash
+```java
 // Acessando um atributo e atribuindo um novo valor
 this.nome_do_atributo = novo_valor;
 ```
@@ -49,7 +49,7 @@ Essa prática permite incluir restrições que vão garantir a integridade dos d
 
 - [**Exemplo**](./Exemplo.java):
 
-```bash
+```java
 // Acessando valor de um atributo de forma direta
 valor = objeto.atributo;
 // Acessando valor de um atributo através de um método
@@ -65,7 +65,7 @@ objeto.setAtributo(valor);
 
 Métodos getters retornam o valor de um atributo, normalmente seu nome é iniciado por "get" seguido do nome do atributo a ter seu valor retornado iniciado com letra maiúscula e não recebem nenhum parâmetro de entrada:
 
-```bash
+```java
 public class MinhaClasse {
     // Definindo um atributo de instância 'contador' do tipo inteiro
     private int contador;
@@ -81,7 +81,7 @@ public class MinhaClasse {
 
 Métodos setters atribuem um novo valor a um atributo, normalmente seu nome é iniciado por "set" seguido do nome do atributo a ter seu valor retornado iniciado com letra maiúscula e recebem um parâmetro de entrada do mesmo tipo que o atributo setado:
 
-```bash
+```java
 public class MinhaClasse {
     // Definindo um atributo de instância 'contador' do tipo inteiro
     private int contador;

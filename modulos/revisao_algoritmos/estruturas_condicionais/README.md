@@ -9,7 +9,9 @@ A estrutura condicional ```if``` controla a decisão sobre a execução ou não 
 
 #### Sintaxe:
 
-```if ( condição ) { código }```
+```java
+if ( condição ) { código }
+```
 
 ### 2. ELSE IF ([exemplo](./If.java)):
 
@@ -17,7 +19,7 @@ Já o ```else if``` tem o seu funcionamento condicionado pelo ```if``` (ou ```el
 
 #### Sintaxe:
 
-```bash
+```java
 if ( condição 1 ) { código 1 }
 else if ( condição 2 ) { código 2 }
 ...
@@ -30,7 +32,7 @@ Assim como o ```else if```, a execução da estrutura ```else``` é condicionada
 
 #### Sintaxe:
 
-```bash
+```java
 if ( condição 1 ) { código 1 }
 else if ( condição 2 ) { código 2 }
 ...
@@ -44,7 +46,7 @@ A estrutura ```switch``` avalia a igualdade de uma expressão com uma série de 
 
 #### Sintaxe:
 
-```bash
+```java
 switch( expressão ) {
     case valor_1:
         { código 1 }

@@ -8,8 +8,8 @@ Funções são chamadas para a execução de um bloco de código que realiza uma
 Cada função deve especificar qual o seu tipo de saída e de todo o conjunto dos seus parêmetro de entradas, essa especificação é chamada de assinatura da função:
 
 #### Sintaxe:
-```bash
-modificador_de_acesso tipo_de_retorno nome_da_função (sequência_de_parâmetros) {
+```java
+modificador_de_acesso static tipo_de_retorno nome_da_função (sequência_de_parâmetros) {
     código
     return valor_de_retorno;
 }
@@ -35,7 +35,7 @@ Nativamente, o java oferece 3 interfaces padrão próprias para expressões lamb
 
 **Sintaxe**:
 
-```bash
+```java
 Runnable nome_da_expressao = () -> { código };
 nome_da_expressao.run();
 ```
@@ -44,7 +44,7 @@ nome_da_expressao.run();
 
 **Sintaxe**:
 
-```bash
+```java
 Consumer<tipo_de_entrada> nome_da_expressao = ( parametro_de_entrada ) -> { código };
 nome_da_expressao.accept();
 ```
@@ -53,7 +53,7 @@ nome_da_expressao.accept();
 
 **Sintaxe**:
 
-```bash
+```java
 Supplier<tipo_de_saida> nome_da_expressao = () -> {
     código
     return valor_de_retorno;
@@ -68,7 +68,7 @@ Também é possível definir quais são os tipos de entrada e saída de uma expr
 
 **Sintaxe**:
 
-```bash
+```java
 interface nome_da_interface {
     tipo_de_retorno nome_do_metodo ( lista_de_parametros );
 }

@@ -9,7 +9,7 @@ O método construtor deve ser público, possuir o mesmo nome que a classe que o 
 
 - **Sintaxe**:
 
-```bash
+```java
 public class MinhaClasse {
     // Método construtor
     public MinhaClasse ( parâmetros ) {
@@ -20,7 +20,7 @@ public class MinhaClasse {
 
 A utilização do método construtor se dá somente quando queremos criar um novo objeto da classe, para isso, a sua chamada deve ser feita precedida pela palavra-chave ```new```, indicando que o retorno desse método é um novo objeto.
 
-```bash
+```java
 MinhaClasse meuObjeto = new MinhaClasse( parâmetros );
 ```
 

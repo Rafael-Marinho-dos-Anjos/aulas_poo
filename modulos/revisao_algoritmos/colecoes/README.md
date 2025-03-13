@@ -9,7 +9,7 @@ No Java, temos dois tipos de estruturas de dados simples: vetor e matriz:
 
 - Vetor: chamado de ```array```, possui indexação simples (a posição do elemento é indicada por um único número inteiro);
 
-```bash
+```java
 // Criando um vetor vazio
 tipo_de_dado[] nome_do_vetor = new tipo_de_dado[tamanho_do_vetor];
 
@@ -19,7 +19,7 @@ tipo_de_dado[] nome_do_vetor = {elemento_1, elemento_2, ... , elemento_n};
 
 - Matriz: é um vetor de duas dimensões, possui dupla indexação (a posição do elemento é indicada por dois números inteiros). Outra forma de interpretar uma matriz é como um vetor onde cada um dos seus elementos internos é outro vetor.
 
-```bash
+```java
 // Criando uma matriz vazia
 tipo_de_dado[][] nome_da_matriz = new tipo_de_dado[tamanho_dim_1][tamanho_dim_2];
 
@@ -34,7 +34,7 @@ tipo_de_dado[][] nome_da_matriz = {
 
 Para acessar um elemento dentro de um vetor ou matriz, basta informar a posição (index) desse elemento entre colchetes:
 
-```bash
+```java
 // Alterando o valor do elemento
 vetor[n] = 10;
 matriz[m][n] = 10;
@@ -46,7 +46,7 @@ System.out.println(matriz[m][n]);
 
 Para saber o tamanho (número de elementos) de um vetor, basta acessar o parâmetro ```lenght```:
 
-```bash
+```java
 int tamanhoDoVetor = vetor.length;
 int tamanhoDaPrimeiraDimensaoDaMatriz = matriz.lenght;
 int tamanhoDaSegundaDimensaoDaMatriz = matriz[0].lenght;
@@ -60,7 +60,7 @@ O Java nativamente oferece uma série de interfaces para coleções através da 
 
 - ```ArrayList```: Uma lista dinâmica (não possui tamanho fixo) que possui a sua implementação baseada em array. O seu acesso por meio de índices é eficiente, mas é mais lenta para modificar a sua estrutura (adicionar ou remover elementos, assim alterando o tamanho da lista);
 
-```bash
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -78,7 +78,7 @@ public class ExemploArrayList {
 
 - ```LinkedList```: Uma lista onde cada elemento é um objeto que aponta para o próximo e para o anterior na sequência. É eficiente para adicionar ou remover elementos, mas o seu acesso por índice é lento, pois ela deve navegar do início (ou fim) da lista até alcançar o índice correspondente em vez de acessar a memória diretamente;
 
-```bash
+```java
 import java.util.LinkedList;
 
 public class ExemploLinkedList {
@@ -95,7 +95,7 @@ public class ExemploLinkedList {
 
 - ```HashMap```: É uma coleção que combina uma chave a um objeto, de forma que o acesso aos elementos do ```HashMap``` não é feito através de índices, mas sim pelos valores das chaves.
 
-```bash
+```java
 import java.util.HashMap;
 
 public class ExemploHashMap {
@@ -112,7 +112,7 @@ public class ExemploHashMap {
 
 O método ```add``` do ```ArrayList``` e do ```LinkedList``` também pode ser utilizado para adicionar elementos em uma posição específica da lista. Caso se queira inserir no início, também pode se usar o método ```addFirst```, caso queira inserir no final, pode ser usado ```addLast```:
 
-```bash
+```java
 // Adicionando elementos na n-ézima posição da lista
 lista.add(n, elemento);
 listaEncadeada.add(n, elemento);
@@ -128,7 +128,7 @@ listaEncadeada.addLast(elemento);
 
 Para remover um elemento de uma coleção, basta utilizar o método ```remove``` seguido do index ou chave:
 
-```bash
+```java
 // Removendo elemento localizado na n-ézima posição
 lista.remove(n);
 listaEncadeada.remove(n);
@@ -139,7 +139,7 @@ mapa.remove(chave);
 
 O acesso aos elementos de coleções é feito através de métodos ```get``` e ```set``` (```put``` no caso de ```HashMap```):
 
-```bash
+```java
 // Acessando os valores das coleções
 elementoLista = arraylist.get(index);
 elementoListaEncadeada = linkedlist.get(index);
@@ -155,7 +155,7 @@ hashmap.replace(chave, novoValor);
 
 O tamanho das coleções é obtido através do método ```size```:
 
-```bash
+```java
 int tamanhoDoArrayList = lista.size();
 int tamanhoDoLinkedList = listaEncadeada.size();
 int tamanhoDoHashMap = mapa.size(); // Quantidade de conjuntos chave-valor
@@ -163,7 +163,7 @@ int tamanhoDoHashMap = mapa.size(); // Quantidade de conjuntos chave-valor
 
 As chaves contidas no ```HashMap``` podem ser obitidas através do método ```keySet```:
 
-```bash
+```java
 Set<tipo_da_chave> chaves = mapa.keySet();
 ```
 

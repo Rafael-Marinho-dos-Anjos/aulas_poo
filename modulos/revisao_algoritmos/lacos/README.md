@@ -11,7 +11,7 @@ Existem diferentes tipos de estruturas de repetição, aseguir veremos cada uma 
 
 #### Sintaxe:
 
-```bash
+```java
 for (inicialização; condição; incremento) { código }
 ```
 
@@ -34,7 +34,7 @@ Para se certificar de que não ocorrerá um loop infinito, deve ser utilizada um
 
 #### Sintaxe:
 
-```bash
+```java
 while (condição) { código }
 ```
 
@@ -44,7 +44,7 @@ while (condição) { código }
 
 #### Sintaxe:
 
-```bash
+```java
 do { código } while (condição);
 ```
 
@@ -53,7 +53,7 @@ do { código } while (condição);
 Essa estrutura de repetição executa a sua iteração sobre os elementos de um ```array``` ([Aula sobre coleções de dados](../colecoes/README.md)). No ```foreach``` não há uma condição de parada, o bloco de código é executado uma vez para cada valor existente no array.
 
 #### Sintaxe:
-```bash
+```java
 for (tipo variável : array) { código }
 ```
 
