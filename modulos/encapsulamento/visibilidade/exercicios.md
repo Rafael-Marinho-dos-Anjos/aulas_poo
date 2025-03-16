@@ -9,8 +9,8 @@ Você foi contratado para desenvolver um novo aplicativo de mensagens chamado Zi
 
 | Nome | Visibilidade | Tipo | Descrição |
 |------|--------------|------|-----------|
-| ```numero``` | Pública | String | Número de contato do ZipZap do usuário |
-| ```conversas``` | Privado | HashMap | Histórico de todas as conversas do usuário |
+| ```numero``` | privada | String | Número de contato do ZipZap do usuário |
+| ```conversas``` | privada | HashMap | Histórico de todas as conversas do usuário |
 
 - Métodos:
 
@@ -18,3 +18,4 @@ Você foi contratado para desenvolver um novo aplicativo de mensagens chamado Zi
 |------|--------------|------------|-----------|
 | ```enviarMensagem``` | pública | msg ```String```, destinatario ```Usuario``` | Envia uma mensagem para o destinatário (Salva a mensagem em ```conversas``` e invoca o método ```receberMensagem``` em ```destinatario```) |
 | ```receberMensagem``` | privada | msg ```String```, numRemetente ```String``` | Salva a mensagem recebida em ```conversas``` |
+| ```getNumero``` | pública | nenhum | Retorna o número de contato do ZipZap do usuário |
