@@ -35,4 +35,4 @@ public class MinhaClasse {
 
 <br>
 
-- [Exercícios]()
+- [Exercícios](./exercicios.md)
