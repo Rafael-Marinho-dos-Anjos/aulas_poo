@@ -3,7 +3,7 @@
 
 Quando herdamos os métodos e atributos de uma superclasse, muitas vezes os comportamentos apresentados pela subclasse não são idênticos ao que se herdou, sendo assim, é possível sobrescrever os métodos que desejamos modificar.
 
-### 1. Override ([]()):
+### 1. Override (Exemplos: [superclasse](./Animal.java), [subclasse](./Gato.java)):
 
 O processo de sobrescrita de um método é chamado de ```override```, ele consiste em reescrever o método dentro da subclasse utilizando a mesma assinatura (mesmos tipos de parâmetros e retorno) que foi definida na superclasse.
 
