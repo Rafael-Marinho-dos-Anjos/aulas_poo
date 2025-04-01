@@ -17,9 +17,9 @@ Métodos e atributos:
 |----------|-----------|-------------------|------------------|---------------|
 | Nome | Nome do funcionário | &check; | &check; | &check; |
 | CPF | CPF do funcionáiro | &check; | &check; | &check; |
-| Base | Salário base caso seja funcionário, valor da hora caso seja horista | &check; | &check; | &check; |
+| Base | Salário base caso seja mensalista, valor da hora caso seja horista | &check; | &check; | &check; |
 | Horas trabalhadas | Total de horas trabalhadas no mês | &check; | &check; | &check; |
-| Horas contratadas | Total de horas de trabalho no mês | &cross; | &cross; | &check; |
+| Horas contratadas | Total de horas de trabalho no mês | &cross; | &check; | &cross; |
 
 | Atributo | Descrição | ```Funcionario``` | ```Mensalista``` | ```Horista``` |
 |----------|-----------|-------------------|------------------|---------------|
@@ -37,7 +37,7 @@ $$ valor_{Pago} = horas_{trabalhadas} \cdot valor_{hora} $$
 $$ valor_{Pago}=\left\lbrace \begin{array}{lc}
     salário_{base} \text{ se } horas_{trabalhadas} = horas_{contratadas}, \\
     salário_{base} + \Delta hora \cdot \frac{salário_{base}}{horas_{contratadas}} \text{ se } horas_{trabalhadas} < horas_{contratadas}, \\
-    salário_{base} + 1.5 \cdot \Delta hora \cdot \frac{Salário_{base}}{Horas_{contratadas}} \text{ se } horas_{trabalhadas} > horas_{contratadas}, \\
+    salário_{base} + 1.5 \cdot \Delta hora \cdot \frac{Salário_{base}}{Horas_{contratadas}} \text{ se } horas_{trabalhadas} > horas_{contratadas}
     \end{array}\right.$$
 
 Onde

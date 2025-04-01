@@ -13,7 +13,7 @@ A definição de uma classe é feita com a palavra-chave ```class``` seguindo o 
 
 ```java
 modificador_de_acesso class nome_da_classe {
-    atributos_e_métodos
+    // atributos e métodos
 }
 ```
 

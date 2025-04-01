@@ -20,7 +20,7 @@ Todos os métodos da classe ```CalculadoraTrigonometrica```, sem excessão, deve
 | Seno | ângulo, tipo: ```double``` | ```double``` | Utilizar ```Math.sin``` |
 | Cosseno | ângulo, tipo: ```double``` | ```double``` | Utilizar ```Math.cos``` |
 | Tangente | ângulo, tipo: ```double``` | ```double``` | Utilizar ```Math.tan``` |
-| Cotangente | ângulo, tipo: ```double``` | ```double``` | $$cotg(\theta) = \frac{1}{tan(\theta)}$$ |
-| Secante | ângulo, tipo: ```double``` | ```double``` | $$sec(\theta) = \frac{1}{cos(\theta)}$$ |
-| Cossecante | ângulo, tipo: ```double``` | ```double``` | $$cosec(\theta) = \frac{1}{sin(\theta)}$$ |
+| Cotangente | ângulo, tipo: ```double``` | ```double``` | $cotg(\theta) = \frac{1}{tan(\theta)}$ |
+| Secante | ângulo, tipo: ```double``` | ```double``` | $sec(\theta) = \frac{1}{cos(\theta)}$ |
+| Cossecante | ângulo, tipo: ```double``` | ```double``` | $cosec(\theta) = \frac{1}{sin(\theta)}$ |
 | AlterarModo | ativarGraus, tipo: ```boolean``` | Nenhum | Atribuir o valor do parâmetro ```AtivarGraus``` para o atributo estático ```modoGraus``` |

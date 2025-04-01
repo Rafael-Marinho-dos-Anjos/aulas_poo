@@ -39,7 +39,7 @@ class MinhaClasse {
 
     // Método público para incrementar valor do atributo privado
     public void incrementarAtributo() {
-        atributoPrivado++;
+        this.atributoPrivado++;
     }
 }
 ```
@@ -57,7 +57,7 @@ class MinhaSuperclasse {
 
 class MinhaSubclasse extends MinhaSuperclasse {
     public void incrementarAtributo() {
-        atributoProtegido++;
+        this.atributoProtegido++;
     }
 }
 ```
