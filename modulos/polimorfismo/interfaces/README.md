@@ -143,4 +143,4 @@ OBS.: Isso é válido tanto para interfaces como para superclasses.
 
 <br>
 
-- [Exemcícios](./exercicios.md)
+- [Exercícios](./exercicios.md)
